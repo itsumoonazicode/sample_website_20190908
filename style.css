@@ -1,3 +1,10 @@
 .uk-navbar-container {
 	background-color: #fff !important;
 }
+
+.mb-label-fix {
+	margin-bottom: 4px;
+}
+.w120 {
+	width: 120px;
+}
