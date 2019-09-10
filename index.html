@@ -4,187 +4,52 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Sample_website_20190908</title>
-	<!-- UIkit CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
-	<link rel="stylesheet" href="style.css">
-	
-	<!-- UIkit JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
+	<title>ページ一覧 | Sample_website_20190908</title>
+
+	<!--script for Fontawesome -->
+	<script src="https://kit.fontawesome.com/74204986af.js"></script>
 </head>
+<style>
+	ul {
+		list-style-type: none;
+		padding: 0;
+		width: 186px;
+		text-align: left;
+		margin: 0 auto;
+	}
+	li:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	main {
+		text-align: center;
+	}
+	.container {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		background-color: #f2f2f2;
+	}
+	a {
+		color: #3c3c3c;
+		text-decoration-line: none;
+	}
+	a:hover {
+		color: #e60012;
+	}
+
+	.fas {
+		color: #e60012;
+		margin-right: 8px;
+	}
+</style>
 <body>
-	<div class="uk-section uk-padding-remove-vertical">
-		<div class="uk-container">
-
-			<div class="uk-position-relative">
-			
-				<nav class="uk-navbar-container" uk-navbar="dropbar: true">
-			
-					<div class="uk-navbar-left">
-			
-						<ul class="uk-navbar-nav">
-							<li>
-								<a href="#">LOGO</a>
-								<div class="uk-navbar-dropdown">
-									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-header">Header</li>
-										<li><a href="#">Item</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-divider"></li>
-										<li><a href="#">Item</a></li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-			
-					</div>
-			
-					<div class="uk-navbar-right">
-			
-						<ul class="uk-navbar-nav">
-							<li>
-								<a href="#">会社情報</a>
-								<div class="uk-navbar-dropdown">
-									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-header">Header</li>
-										<li><a href="#">Item</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-divider"></li>
-										<li><a href="#">Item</a></li>
-									</ul>
-								</div>
-							</li>
-							<li>
-								<a href="#">IR情報</a>
-								<div class="uk-navbar-dropdown">
-									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-header">Header</li>
-										<li><a href="#">Item</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-divider"></li>
-										<li><a href="#">Item</a></li>
-									</ul>
-								</div>
-							</li>
-							<li>
-								<a href="#">CSR</a>
-								<div class="uk-navbar-dropdown">
-									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-header">Header</li>
-										<li><a href="#">Item</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-divider"></li>
-										<li><a href="#">Item</a></li>
-									</ul>
-								</div>
-							</li>
-							<li>
-								<a href="#">採用情報</a>
-								<div class="uk-navbar-dropdown">
-									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-header">Header</li>
-										<li><a href="#">Item</a></li>
-										<li><a href="#">Item</a></li>
-										<li class="uk-nav-divider"></li>
-										<li><a href="#">Item</a></li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-			
-					</div>
-				</nav>
-			
-				<div class="uk-navbar-dropbar"></div>
-			
-			</div>
-		</div>
-	</div>
-
-	<div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80" data-srcset="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80 650w,	https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=1300&h=866&q=80 1300w" data-sizes="(min-width: 650px) 650px, 100vw" uk-img>
-		<h1>
-			Kore Ha Sample Site Desu Nen Hona Okini!
-		</h1>
-	</div>
-
-	<div class="uk-section">
-		<div class="uk-container uk-margin-auto uk-width-3-4">
-			<div class="uk-background-muted uk-padding-small">新着情報</div>
-			<ul class="uk-list">
-				<li class="uk-margin-medium-top">
-					<ul class="uk-flex">
-						<li class="uk-margin-small-right">2019.09.09</li>
-						<li class="w120"><span class="uk-label mb-label-fix">お知らせ</span></li>
-						<li>自己株式の取得状況に関するお知らせ</li>
-					</ul>
-				</li>
-				<li class="uk-margin-medium-top">
-					<ul class="uk-flex">
-						<li class="uk-margin-small-right">2018.02.09</li>
-						<li class="w120"><span class="uk-label uk-label-warning mb-label-fix">IRニュース</span></li>
-						<li>第14回定時株主総会招集ご通知</li>
-					</ul>
-				</li>
-				<li class="uk-margin-medium-top">
-					<ul class="uk-flex">
-						<li class="uk-margin-small-right">2018.02.01</li>
-						<li class="w120"><span class="uk-label uk-label-success mb-label-fix">採用情報</span></li>
-						<li>「当社取締役会の実効性の分析・評価」結果の概要について</li>
-					</ul>
-				</li>
-				<li class="uk-margin-medium-top">
-					<ul class="uk-flex">
-						<li class="uk-margin-small-right">2017.08.09</li>
-						<li class="w120"><span class="uk-label mb-label-fix">お知らせ</span></li>
-						<li>お知らせテスト</li>
-					</ul>
-				</li>
+	<main>
+		<h1>ページ一覧</h1>
+		<div class="container">
+			<ul>
+				<li><i class="fas fa-ellipsis-v"></i><a href="facade.html">トップページ</a></li>
+				<li><i class="fas fa-ellipsis-v"></i><a href="">サイドバー付きページ</a></li>
 			</ul>
 		</div>
-	</div>
-
-	<div class="uk-section">
-		<div class="uk-container uk-flex">
-			<div class="uk-width-1-2@s uk-width-2-5@m">
-				<ul class="uk-nav uk-nav-default">
-					<li class="uk-active"><a href="#">会社情報</a></li>
-					<li><a href="#">Item</a></li>
-					<li><a href="#">Item</a></li>
-				</ul>
-			</div>
-			<div class="uk-width-1-2@s uk-width-2-5@m">
-				<ul class="uk-nav uk-nav-default">
-					<li class="uk-active"><a href="#">IR情報</a></li>
-					<li><a href="#">Item</a></li>
-					<li><a href="#">Item</a></li>
-				</ul>
-			</div>
-			<div class="uk-width-1-2@s uk-width-2-5@m">
-				<ul class="uk-nav uk-nav-default">
-					<li class="uk-active"><a href="#">CSR</a></li>
-					<li><a href="#">Item</a></li>
-					<li><a href="#">Item</a></li>
-				</ul>
-			</div>
-			<div class="uk-width-1-2@s uk-width-2-5@m">
-				<ul class="uk-nav uk-nav-default">
-					<li class="uk-active"><a href="#">採用情報</a></li>
-					<li><a href="#">Item</a></li>
-					<li><a href="#">Item</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+	</main>
 </body>
 </html>
