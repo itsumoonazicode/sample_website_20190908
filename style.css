@@ -23,3 +23,26 @@
 footer > .uk-section {
 	border-bottom: 1px solid #e6e6e6;
 }
+
+/* Style for swiper */
+.slider-container {
+	width: 100%;
+	height: 540px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: aquamarine;
+}
+.swiper-container {
+	max-width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	text-align: center;
+}
+.swiper-slide > p {
+	/* ど真ん中に配置する */
+	position: absolute; /* .swiper-slideにrelativeが付いてる */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
