@@ -8,9 +8,14 @@
 	<!-- UIkit CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
 	<link rel="stylesheet" href="style.css">
-	
+	<!-- Place your kit's code here -->
+	<script src="https://kit.fontawesome.com/74204986af.js"></script>
 	<!-- Swiper -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<!-- YakuHanJPs -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.2.0/dist/css/yakuhanjp_s.min.css">
 </head>
 <body>
 	<div class="uk-section uk-padding-remove-vertical">
@@ -35,7 +40,7 @@
 									<div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
 										<div>
 											<ul class="uk-nav uk-navbar-dropdown-nav">
-												<li class="uk-active"><a href="#">Active</a></li>
+												<li class=""><a href="#">Active</a></li>
 												<li><a href="#">Item</a></li>
 												<li class="uk-nav-header">Header</li>
 												<li><a href="#">Item</a></li>
@@ -46,7 +51,7 @@
 										</div>
 										<div>
 											<ul class="uk-nav uk-navbar-dropdown-nav">
-												<li class="uk-active"><a href="#">Active</a></li>
+												<li class=""><a href="#">Active</a></li>
 												<li><a href="#">Item</a></li>
 												<li class="uk-nav-header">Header</li>
 												<li><a href="#">Item</a></li>
@@ -57,7 +62,7 @@
 										</div>
 										<div>
 											<ul class="uk-nav uk-navbar-dropdown-nav">
-												<li class="uk-active"><a href="#">Active</a></li>
+												<li class=""><a href="#">Active</a></li>
 												<li><a href="#">Item</a></li>
 												<li class="uk-nav-header">Header</li>
 												<li><a href="#">Item</a></li>
@@ -76,7 +81,21 @@
 								<a href="#">IR情報</a>
 								<div class="uk-navbar-dropdown">
 									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
+										<li class=""><a href="#">Active</a></li>
+										<li><a href="#">Item</a></li>
+										<li class="uk-nav-header">Header</li>
+										<li><a href="#">Item</a></li>
+										<li><a href="#">Item</a></li>
+										<li class="uk-nav-divider"></li>
+										<li><a href="#">Item</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">製品情報</a>
+								<div class="uk-navbar-dropdown">
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class=""><a href="#">Active</a></li>
 										<li><a href="#">Item</a></li>
 										<li class="uk-nav-header">Header</li>
 										<li><a href="#">Item</a></li>
@@ -90,7 +109,7 @@
 								<a href="#">CSR</a>
 								<div class="uk-navbar-dropdown">
 									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
+										<li class=""><a href="#">Active</a></li>
 										<li><a href="#">Item</a></li>
 										<li class="uk-nav-header">Header</li>
 										<li><a href="#">Item</a></li>
@@ -104,7 +123,7 @@
 								<a href="#">採用情報</a>
 								<div class="uk-navbar-dropdown">
 									<ul class="uk-nav uk-navbar-dropdown-nav">
-										<li class="uk-active"><a href="#">Active</a></li>
+										<li class=""><a href="#">Active</a></li>
 										<li><a href="#">Item</a></li>
 										<li class="uk-nav-header">Header</li>
 										<li><a href="#">Item</a></li>
@@ -129,15 +148,34 @@
 	<div class="slider-container">
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide"><p>Click to move next slide1</p></div>
-				<div class="swiper-slide"><p>Click to move next slide2</p></div>
-				<div class="swiper-slide"><p>Click to move next slide3</p></div>
+				<div class="swiper-slide">
+					<div class="uk-height-1-1 uk-background-cover"
+						data-src="imgs/chad-kirchoff-xe-e69j6-Ds-unsplash.jpg"
+						data-srcset="imgs/chad-kirchoff-xe-e69j6-Ds-unsplash.jpg"
+						uk-img></div>					
+				</div>
+				<div class="swiper-slide">
+					<div class="uk-height-1-1 uk-background-cover"
+						data-src="imgs/christian-wiediger-Htfy7TaDBgo-unsplash.jpg"
+						data-srcset="imgs/christian-wiediger-Htfy7TaDBgo-unsplash.jpg"
+						uk-img></div>
+				</div>
+				<div class="swiper-slide">
+					<div class="uk-height-1-1 uk-background-cover"
+						data-src="imgs/s2-art-FMAVXJXIdP8-unsplash.jpg"
+						data-srcset="imgs/s2-art-FMAVXJXIdP8-unsplash.jpg"
+						uk-img></div>
+				</div>
 		
 			</div>
 			<div class="swiper-pagination"></div>
 		
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev swiper-custom-button">
+				<i class="fas fa-angle-left"></i>
+			</div>
+			<div class="swiper-button-next swiper-custom-button">
+				<i class="fas fa-angle-right"></i>
+			</div>
 		</div>
 	</div>
 
@@ -145,7 +183,7 @@
 
 	<div class="uk-section">
 		<div class="uk-container uk-margin-auto uk-width-3-4">
-			<div class="uk-background-muted uk-padding-small">新着情報</div>
+			<div class="uk-background-muted uk-padding-small header-bar">新着情報</div>
 			<ul class="uk-list">
 				<li class="uk-margin-medium-top">
 					<ul class="uk-flex">
@@ -179,50 +217,105 @@
 		</div>
 	</div>
 
+	<div class="uk-section">
+		<div class="uk-container uk-margin-auto uk-width-3-4">
+			<div class="uk-background-muted uk-padding-small header-bar">製品カテゴリー</div>
+			<div class="uk-section">
+				<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+					<div>
+						<div class="uk-card uk-card-default uk-card-body uk-card-primary uk-card-hover">
+							<a href="#" class="link-box">
+								<i class="fas fa-couch"></i><span class="uk-margin-small-left uk-margin-small-right">自動車</span>
+							</a>
+						</div>
+					</div>
+					<div>
+						<div class="uk-card uk-card-default uk-card-body uk-card-hover">
+							<a href="#" class="link-box">
+								<i class="fas fa-apple-alt"></i><span class="uk-margin-small-left uk-margin-small-right">エレクトロニクス</span>
+							</a>
+						</div>
+					</div>
+					<div>
+						<div class="uk-card uk-card-default uk-card-body uk-card-secondary uk-card-hover">
+							<a href="#" class="link-box">
+								<i class="fas fa-hotel"></i><span class="uk-margin-small-left uk-margin-small-right">ライフサイエンス</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<footer class="footer-container">
 		<div class="uk-section">
 			<div class="uk-container uk-flex">
 				<div class="uk-width-1-2@s uk-width-2-5@m uk-margin-left">
 					<ul class="uk-nav uk-nav-default">
-						<li class="uk-active">
+						<li class="footer-top-level-link">
 							<a href="#">
 								<span class="category-icon" uk-icon="hashtag"></span>会社情報
 							</a>
 						</li>
+						<li class="uk-nav-header">経営方針・ガバナンス</li>
 						<li><a href="#">Item</a></li>
 						<li><a href="#">Item</a></li>
 					</ul>
 				</div>
 				<div class="uk-width-1-2@s uk-width-2-5@m uk-margin-left">
 					<ul class="uk-nav uk-nav-default">
-						<li class="uk-active">
+						<li class="footer-top-level-link">
 							<a href="#">
 								<span class="category-icon" uk-icon="hashtag"></span>IR情報
 							</a>
 						</li>
+						<li class="uk-nav-header">個人投資家の皆さまへ</li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
 						<li><a href="#">Item</a></li>
 						<li><a href="#">Item</a></li>
 					</ul>
 				</div>
 				<div class="uk-width-1-2@s uk-width-2-5@m uk-margin-left">
 					<ul class="uk-nav uk-nav-default">
-						<li class="uk-active">
+						<li class="footer-top-level-link">
+							<a href="#">
+								<span class="category-icon" uk-icon="hashtag"></span>製品情報
+							</a>
+						</li>
+						<li class="uk-nav-header">自動車</li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li class="uk-nav-header">エレクトロニクス</li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li class="uk-nav-header">ライフサイエンス</li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+					</ul>
+				</div>
+				<div class="uk-width-1-2@s uk-width-2-5@m uk-margin-left">
+					<ul class="uk-nav uk-nav-default">
+						<li class="footer-top-level-link">
 							<a href="#">
 								<span class="category-icon" uk-icon="hashtag"></span>CSR
 							</a>
 						</li>
+						<li class="uk-nav-header">CSRへの取り組み</li>
 						<li><a href="#">Item</a></li>
 						<li><a href="#">Item</a></li>
 					</ul>
 				</div>
 				<div class="uk-width-1-2@s uk-width-2-5@m uk-margin-left">
 					<ul class="uk-nav uk-nav-default">
-						<li class="uk-active">
+						<li class="footer-top-level-link">
 							<a href="#">
 								<span class="category-icon" uk-icon="hashtag"></span>採用情報
 							</a>
 						</li>
+						<li class="uk-nav-header">採用情報</li>
 						<li><a href="#">Item</a></li>
 						<li><a href="#">Item</a></li>
 					</ul>

@@ -1,3 +1,7 @@
+body {
+	font-family: YakuHanJPs, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+}
+
 .uk-navbar-container {
 	background-color: #fff !important;
 }
@@ -45,4 +49,43 @@ footer > .uk-section {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.link-box {
+	/* aタグをdiv全体に効かせる */
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	line-height: 80px;
+}
+
+.swiper-custom-button {
+	background-color: #e60012;
+	background-image: none !important;
+	text-align: center;
+	width: 40px !important;
+	height: 104px !important;
+}
+.swiper-custom-button > .fas {
+	color: #e6e6e6;
+	line-height: 102px;
+}
+
+.swiper-button-prev.swiper-custom-button {
+	left: 0;
+}
+.swiper-button-next.swiper-custom-button {
+	right: 0;
+}
+
+.footer-top-level-link {
+	font-size: 1rem;
+}
+
+.header-bar {
+	color: #3c3c3c;
+	font-size: 21px;
+	font-weight: bold;
 }
