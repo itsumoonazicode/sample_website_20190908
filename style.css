@@ -102,3 +102,33 @@ footer > .uk-section {
 .uk-nav-default > li > a {
 	color: #3c3c3c;
 }
+
+/* 会社案内 */
+.company .slider-container {
+	background-color: inherit;
+}
+
+.company .slider-container > div {
+	position: relative;
+}
+.company .slider-container > div > h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bold;
+
+	/* 上下中央寄せ */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.company .uk-nav-default > li > a {
+	color: #999;
+}
+.company .uk-nav-default > li.uk-active > a {
+	color: #333;
+}
+.company .uk-nav-default > li > a:focus, .company .uk-nav-default > li > a:hover {
+	color: #666;
+}
