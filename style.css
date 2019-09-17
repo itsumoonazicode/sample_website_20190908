@@ -2,6 +2,7 @@ body {
 	font-family: YakuHanJPs, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
 }
 
+
 .uk-navbar-container {
 	background-color: #fff !important;
 }
@@ -81,11 +82,23 @@ footer > .uk-section {
 }
 
 .footer-top-level-link {
+	padding: 5px 0;
 	font-size: 1rem;
+	font-weight: bold;
+	color: #3c3c3c !important;
 }
 
 .header-bar {
 	color: #3c3c3c;
 	font-size: 21px;
 	font-weight: bold;
+}
+
+.uk-navbar-nav > li > a {
+	color: #3c3c3c;
+	font-weight: bold;
+}
+
+.uk-nav-default > li > a {
+	color: #3c3c3c;
 }
