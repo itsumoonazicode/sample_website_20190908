@@ -105,6 +105,7 @@ footer > .uk-section {
 
 /* 会社案内 */
 .company .slider-container {
+	height: auto;
 	background-color: inherit;
 }
 
@@ -131,4 +132,12 @@ footer > .uk-section {
 }
 .company .uk-nav-default > li > a:focus, .company .uk-nav-default > li > a:hover {
 	color: #666;
+}
+
+.tile-img-products {
+	padding: 10px;
+	border: 1px solid #333;
+}
+.tile-img-products img {
+	width: 20vw;
 }
