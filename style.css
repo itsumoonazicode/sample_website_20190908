@@ -192,3 +192,42 @@ footer > .uk-section {
 .uk-list-custom li:not(:first-child) {
 	margin-left: 10px;
 }
+
+/*
+	ニュース
+ */
+.news .slider-container {
+	height: auto;
+	background-color: inherit;
+}
+
+.news .slider-container > div {
+	position: relative;
+}
+.news .slider-container > div > h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bold;
+
+	/* 上下中央寄せ */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.news .uk-nav-default > li > a {
+	color: #999;
+}
+.news .uk-nav-default > li.uk-active > a {
+	color: #333;
+}
+.news .uk-nav-default > li > a:focus, .news .uk-nav-default > li > a:hover {
+	color: #666;
+}
+
+.news .uk-background-cover {
+	background-image: none !important;
+	background: linear-gradient(25deg, rgba(255, 190, 44, 0.4), rgba(255, 44, 171, 0.7)),url(imgs/news-main.jpg) !important;
+	background-size: cover !important;
+}
