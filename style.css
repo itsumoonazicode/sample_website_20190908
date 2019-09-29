@@ -13,6 +13,12 @@ body {
 .w120 {
 	width: 120px;
 }
+.font-size120rem {
+	font-size: 1.2rem;
+}
+.border-radius6 {
+	border-radius: 6px;
+}
 
 .category-icon {
 	color: #e60012;
@@ -230,4 +236,18 @@ footer > .uk-section {
 	background-image: none !important;
 	background: linear-gradient(25deg, rgba(255, 190, 44, 0.4), rgba(255, 44, 171, 0.7)),url(imgs/news-main.jpg) !important;
 	background-size: cover !important;
+}
+
+.news .news-text p, .news .news-text ul li {
+	line-height: 2;
+}
+.news .news-text ul {
+	list-style-type: none;
+}
+
+.news .news-text.paper-layout ul li:first-child {
+	width: 16%;
+}
+.news .news-text.paper-layout ul li:last-child {
+	width: 84%;
 }
